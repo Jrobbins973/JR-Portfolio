@@ -1,0 +1,11 @@
+Model Information:
+* title:	Computer And Gadgets
+* source:	https://sketchfab.com/3d-models/computer-and-gadgets-b9e448f85f184360a7147cd541eac45b
+* author:	JustBlender (https://sketchfab.com/JustBlender)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Computer And Gadgets" (https://sketchfab.com/3d-models/computer-and-gadgets-b9e448f85f184360a7147cd541eac45b) by JustBlender (https://sketchfab.com/JustBlender) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -23,6 +23,13 @@ import {
     jobit,
     tripguide,
     threejs,
+    wpu,
+    valogo,
+    flatironschool,
+    logo,
+    reactr,
+    apartmentconnect,
+    planetsite
 } from "../assets";
 
 export const navLinks = [
@@ -116,55 +123,52 @@ const technologies = [
 
 const experiences = [
 {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Graduate Assistant",
+    company_name: "William Paterson University",
+    icon: wpu,
+    iconBg: "lightGray",
+    date: "September 2019 - May 2021",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Instructed undergraduate kinesiology students on laboratory protocols and metabolic testing",
+    "Conducted ECG screening, Metabolic testing, as well as blood pressure and body composition measurement techniques",
+    " Maintained exercise testing equipment, scheduled repairs, and ordered supplies for the Human Performance Lab"
     ],
 },
 {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Clinical Research Coordinator",
+    company_name: "James J. Peter's Bronx VA Medical Center",
+    icon: valogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2021 - September 2022",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Ensured the accuracy and integrity of research data through efficient analysis and management of databases utilized in publishing research papers",
+    "Led the execution of clinical research trials centered on spinal cord injury recovery, through innovative experimental sessions."   
     ],
 },
 {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Engineering Student",
+    company_name: "Flatiron School",
+    icon: flatironschool,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2022 - January 2023",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    "Full-time 15-week program and 500+ hour immersive full-stack software development program",
+    "Collaborated on Frontend, Backend, and Full stack group projects with one-week timelines to implement technical knowledge and learn effective communication, leadership, and problem-solving skills",
+    "Created a capstone solo Full-Stack application with a three-week timeline demonstrating project planning, idea actualization, and technical practice",
+    "Gained proficiency with multiple languages, frameworks, libraries, data structures, algorithms, and technical writing proficiency"
+        
     ],
 },
 {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Freelance Web Developer",
+    company_name: "Allright Computer Services",
+    icon: logo,
+    iconBg: "black",
+    date: "February 2023 - April 2023",
     points: [
-    "Developing and maintaining web applications using React.js and other related technologies.",
-    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    "Implementing responsive design and ensuring cross-browser compatibility.",
-    "Participating in code reviews and providing constructive feedback to other developers.",
+    " Drove customer acquisition by creating a dynamic, mobile friendly website using React and Tailwind CSS.", 
+    " Successfully collaborated with the business owner to develop and execute a website design strategy that effectively showcased the company’s offerings and enhanced its online presence. "
+        
     ],
 },
 ];
@@ -198,67 +202,63 @@ const testimonials = [
 
 const projects = [
 {
-    name: "Car Rent",
+    name: "ApartmentConnect",
     description:
-    "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "Full-stack application for apartment tenants, designed to promote a sense of community within residential buildings. Tenants can effortlessly connect and engage with their fellow residents, fostering a friendly and inclusive environment. From building meaningful relationships to collaborating on shared interests.",
     tags: [
     {
         name: "react",
         color: "blue-text-gradient",
     },
     {
-        name: "mongodb",
+        name: "postgresql",
         color: "green-text-gradient",
     },
     {
-        name: "tailwind",
+        name: "rubyonrails",
         color: "pink-text-gradient",
     },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: apartmentconnect,
+    source_code_link: "https://github.com/Jrobbins973/ApartmentConnect",
 },
 {
-    name: "Job IT",
+    name: "Reactr",
     description:
-    "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    "Full-stack application that empowers users to seamlessly connect with others. With the ability to follow fellow users, engage in  discussions, and create personalized posts.",
     tags: [
     {
         name: "react",
         color: "blue-text-gradient",
     },
     {
-        name: "restapi",
+        name: "postgresql",
         color: "green-text-gradient",
     },
     {
-        name: "scss",
+        name: "rubyonrails",
         color: "pink-text-gradient",
     },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: reactr,
+    source_code_link: "https://github.com/nardling/phase-4-project",
 },
 {
-    name: "Trip Guide",
+    name: "Planet Showcase",
     description:
-    "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    "A captivating, front-end application that presents intriguing insights about the planets in our solar system, designed with an intuitive and user-friendly interface",
     tags: [
     {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
-    },
-    {
-        name: "supabase",
-        color: "green-text-gradient",
     },
     {
         name: "css",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
     },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: planetsite,
+    source_code_link: "https://github.com/Jrobbins973/phase-3-front-end-react",
 },
 ];
 

@@ -13,7 +13,7 @@ const Computers = ({isMobile}) => {
 
 
 
-  const computer = useGLTF('./desktop_pc/scene.gltf')
+  const computer = useGLTF('./computer_and_gadgets/scene.gltf')
 
   return (
     <mesh>
@@ -30,9 +30,9 @@ const Computers = ({isMobile}) => {
       />
       <primitive 
         object={computer.scene}
-        scale={isMobile ? 0.4 : 0.6}
-        position={isMobile ? [0, -1, -1.2]:[0, -2.25, -0.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 1 : 3}
+        position={isMobile ? [0, 0.5, 0]:[1.8, -1, 0.1]}
+        rotation={[0.1, 1.3, -0.09]}
       />
 
     </mesh>

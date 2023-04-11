@@ -20,15 +20,19 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import valogo from "./valogo.jpeg"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import wpu from "./wpu.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import flatironschool from "./flatironschool.png";
+import reactr from "./reactr.png"
+import apartmentconnect from "./apartmentconnect.png"
+import planetsite from "./planetsite.png"
 
 export {
   logo,
@@ -59,4 +63,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  wpu,
+  valogo,
+  flatironschool,
+  reactr,
+  apartmentconnect,
+  planetsite
 };

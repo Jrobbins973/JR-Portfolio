@@ -1,11 +1,15 @@
 import React, {useState, useRef} from 'react'
 import {motion} from 'framer-motion'
-// import {emailjs} from '@emailjs/browser'
+import emailjs from '@emailjs/browser'
 import { styles } from '../styles'
 import { EarthCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
 import { slideIn } from '../utils/motion'
 
+
+// 3zIrVqyRLdH5S3J0A
+// template_17zxoxr
+// service_tvd5k5j
 
 const Contact = () => {
   const formRef = useRef()
@@ -17,9 +21,44 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false)
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setForm({...form, [name]: value})
+  }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setLoading(true)
+
+
+
+    emailjs.send(
+    'service_tvd5k5j',
+    'template_17zxoxr',
+    
+    {
+      from_name: form.name,
+      to_name: "Joe",
+      from_email: form.email,
+      to_email: "joe.robbins",
+      message: form.message
+    },
+    '3zIrVqyRLdH5S3J0A'
+    )
+    .then(() => {
+      setLoading(false)
+      alert("Thank You. I will get back to you as soon as possible")
+      setForm({
+        name: '',
+        email: '',
+        message: ''
+      })
+    }, (error) => {
+      setLoading(false)
+      console.log(error);
+      alert("Something went wrong")
+    })
+  }
 
 
   return (
@@ -66,7 +105,7 @@ const Contact = () => {
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
-            rows="7" 
+            rows="5" 
             type='text'
             name='message'
             value={form.message}
