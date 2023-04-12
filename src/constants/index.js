@@ -123,26 +123,15 @@ const technologies = [
 
 const experiences = [
 {
-    title: "Graduate Assistant",
-    company_name: "William Paterson University",
-    icon: wpu,
-    iconBg: "lightGray",
-    date: "September 2019 - May 2021",
+    title: "Freelance Web Developer",
+    company_name: "Allright Computer Services",
+    icon: logo,
+    iconBg: "black",
+    date: "February 2023 - April 2023",
     points: [
-    "Instructed undergraduate kinesiology students on laboratory protocols and metabolic testing",
-    "Conducted ECG screening, Metabolic testing, as well as blood pressure and body composition measurement techniques",
-    " Maintained exercise testing equipment, scheduled repairs, and ordered supplies for the Human Performance Lab"
-    ],
-},
-{
-    title: "Clinical Research Coordinator",
-    company_name: "James J. Peter's Bronx VA Medical Center",
-    icon: valogo,
-    iconBg: "#E6DEDD",
-    date: "June 2021 - September 2022",
-    points: [
-    "Ensured the accuracy and integrity of research data through efficient analysis and management of databases utilized in publishing research papers",
-    "Led the execution of clinical research trials centered on spinal cord injury recovery, through innovative experimental sessions."   
+    " Drove customer acquisition by creating a dynamic, mobile friendly website using React and Tailwind CSS.", 
+    " Successfully collaborated with the business owner to develop and execute a website design strategy that effectively showcased the company’s offerings and enhanced its online presence. "
+        
     ],
 },
 {
@@ -160,16 +149,27 @@ const experiences = [
     ],
 },
 {
-    title: "Freelance Web Developer",
-    company_name: "Allright Computer Services",
-    icon: logo,
-    iconBg: "black",
-    date: "February 2023 - April 2023",
+    title: "Clinical Research Coordinator",
+    company_name: "James J. Peter's Bronx VA Medical Center",
+    icon: valogo,
+    iconBg: "#E6DEDD",
+    date: "June 2021 - September 2022",
     points: [
-    " Drove customer acquisition by creating a dynamic, mobile friendly website using React and Tailwind CSS.", 
-    " Successfully collaborated with the business owner to develop and execute a website design strategy that effectively showcased the company’s offerings and enhanced its online presence. "
-        
+    "Ensured the accuracy and integrity of research data through efficient analysis and management of databases utilized in publishing research papers",
+    "Led the execution of clinical research trials centered on spinal cord injury recovery, through innovative experimental sessions."   
     ],
+},
+{
+title: "Graduate Assistant",
+company_name: "William Paterson University",
+icon: wpu,
+iconBg: "lightGray",
+date: "September 2019 - May 2021",
+points: [
+"Instructed undergraduate kinesiology students on laboratory protocols and metabolic testing",
+"Conducted ECG screening, Metabolic testing, as well as blood pressure and body composition measurement techniques",
+" Maintained exercise testing equipment, scheduled repairs, and ordered supplies for the Human Performance Lab"
+],
 },
 ];
 

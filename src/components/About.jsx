@@ -44,7 +44,9 @@ const About = () => {
     variants={fadeIn("", "", 0.1, 1)}
     className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
     >
-      Software Engineer with experience using JavaScript, React, Next.js, Ruby on Rails, and CSS to create full-stack web applications. I have completed a Full-stack Software Development program, demonstrating proficiency in multiple languages, frameworks, and libraries, and additionally I posses a Master's degree in Exercise Physiology.
+      Hey there! I'm a software engineer with a passion for creating awesome web applications! I've got experience using JavaScript, React, Next.js, Ruby on Rails, and CSS to build full-stack projects. I even completed a Full-stack Software Development program, so I'm proficient in multiple languages, frameworks, and libraries.
+
+      In case you're wondering, I also hold a Master's degree in Exercise Physiology. So not only do I love coding, but I'm also a health and fitness enthusiast.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
