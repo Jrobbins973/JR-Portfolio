@@ -6,7 +6,6 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -33,6 +32,8 @@ import flatironschool from "./flatironschool.png";
 import reactr from "./reactr.png"
 import apartmentconnect from "./apartmentconnect.png"
 import planetsite from "./planetsite.png"
+import dalle from "./dalle.png"
+import { Clone } from "@react-three/drei";
 
 export {
   logo,
@@ -68,5 +69,6 @@ export {
   flatironschool,
   reactr,
   apartmentconnect,
-  planetsite
+  planetsite,
+  dalle,
 };

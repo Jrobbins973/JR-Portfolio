@@ -29,7 +29,8 @@ import {
     logo,
     reactr,
     apartmentconnect,
-    planetsite
+    planetsite,
+    dalle,
 } from "../assets";
 
 export const navLinks = [
@@ -204,7 +205,7 @@ const projects = [
 {
     name: "ApartmentConnect",
     description:
-    "Full-stack application for apartment tenants, designed to promote a sense of community within residential buildings. Tenants can effortlessly connect and engage with their fellow residents, fostering a friendly and inclusive environment. From building meaningful relationships to collaborating on shared interests.",
+    "Full-stack application for apartment tenants, designed to promote a sense of community within residential buildings. Tenants can effortlessly connect and engage with their fellow residents, fostering a friendly and inclusive environment. ",
     tags: [
     {
         name: "react",
@@ -223,25 +224,34 @@ const projects = [
     source_code_link: "https://github.com/Jrobbins973/ApartmentConnect",
 },
 {
-    name: "Reactr",
+    name: "Dall-E Clone",
     description:
-    "Full-stack application that empowers users to seamlessly connect with others. With the ability to follow fellow users, engage in  discussions, and create personalized posts.",
+    "Full Stack MERN Application based on OpenAI's Dall-E image generator. Allows users to generate images based on a prompt, using OpenAI's API. Users can then share images to a dashboard and view all of their creations.",
     tags: [
+   
+    {
+        name: "mongodb",
+        color: "green-text-gradient",
+    },
+    {
+        name: "next.js",
+        color: "pink-text-gradient",
+    },
     {
         name: "react",
         color: "blue-text-gradient",
     },
     {
-        name: "postgresql",
-        color: "green-text-gradient",
+        name: "express",
+        color: "yellow-text-gradient",
     },
     {
-        name: "rubyonrails",
-        color: "pink-text-gradient",
+        name: "MERN",
+        color: "gold-text-gradient",
     },
     ],
-    image: reactr,
-    source_code_link: "https://github.com/nardling/phase-4-project",
+    image: dalle,
+    source_code_link: "https://github.com/Jrobbins973/Dalle-clone",
 },
 {
     name: "Planet Showcase",
