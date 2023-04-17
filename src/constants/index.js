@@ -31,6 +31,8 @@ import {
     apartmentconnect,
     planetsite,
     dalle,
+    cscs,
+    wpuexphys
 } from "../assets";
 
 export const navLinks = [
@@ -51,19 +53,19 @@ export const navLinks = [
 const services = [
 {
     title: "Web Developer",
-    icon: web,
+    icon: logo,
 },
 {
     title: "Frontend Developer",
-    icon: mobile,
+    icon: reactjs,
 },
 {
     title: "Backend Developer",
-    icon: backend,
+    icon: nodejs,
 },
 {
     title: "Exercise Scientist",
-    icon: creator,
+    icon: cscs,
 },
 ];
 

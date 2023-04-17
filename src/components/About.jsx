@@ -42,11 +42,11 @@ const About = () => {
 
     <motion.p
     variants={fadeIn("", "", 0.1, 1)}
-    className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+    className='mt-4 text-secondary text-[22px] max-w-5xl leading-[30px]'
     >
-      Hey there! I'm a software engineer with a passion for creating awesome web applications! I've got experience using JavaScript, React, Next.js, Ruby on Rails, and CSS to build full-stack projects. I even completed a Full-stack Software Development program, so I'm proficient in multiple languages, frameworks, and libraries.
+      Hey there, I'm a software engineer with a passion for creating awesome web applications! I've got experience using Next.js, the M.E.R.N. stack, and Ruby on Rails to build full-stack projects. I completed a Full-stack Software Development program, so I'm proficient in multiple languages, frameworks, and libraries.
 
-      In case you're wondering, I also hold a Master's degree in Exercise Physiology. So not only do I love coding, but I'm also a health and fitness enthusiast.
+      I also hold a Master's degree in Exercise Physiology. So not only do I love coding, but I'm also a health and fitness enthusiast.
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>

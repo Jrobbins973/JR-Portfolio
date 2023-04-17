@@ -33,6 +33,8 @@ import reactr from "./reactr.png"
 import apartmentconnect from "./apartmentconnect.png"
 import planetsite from "./planetsite.png"
 import dalle from "./dalle.png"
+import cscs from "./cscs.png"
+import wpuexphys from "./wpuexphys.jpeg"
 import { Clone } from "@react-three/drei";
 
 export {
@@ -71,4 +73,6 @@ export {
   apartmentconnect,
   planetsite,
   dalle,
+  cscs,
+  wpuexphys
 };
