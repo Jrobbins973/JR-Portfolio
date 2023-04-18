@@ -36,6 +36,9 @@ import dalle from "./dalle.png"
 import cscs from "./cscs.png"
 import wpuexphys from "./wpuexphys.jpeg"
 import { Clone } from "@react-three/drei";
+import rhythm from './rhythm.png'
+import corgitwo from "./corgitwo.png"
+
 
 export {
   logo,
@@ -74,5 +77,7 @@ export {
   planetsite,
   dalle,
   cscs,
-  wpuexphys
+  wpuexphys,
+  rhythm,
+  corgitwo
 };

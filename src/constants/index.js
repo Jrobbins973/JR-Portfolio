@@ -32,7 +32,9 @@ import {
     planetsite,
     dalle,
     cscs,
-    wpuexphys
+    wpuexphys,
+    rhythm,
+    corgitwo
 } from "../assets";
 
 export const navLinks = [
@@ -51,10 +53,7 @@ export const navLinks = [
 ];
 
 const services = [
-{
-    title: "Web Developer",
-    icon: logo,
-},
+
 {
     title: "Frontend Developer",
     icon: reactjs,
@@ -66,6 +65,10 @@ const services = [
 {
     title: "Exercise Scientist",
     icon: cscs,
+},
+{
+    title: "Dog Lover",
+    icon: corgitwo,
 },
 ];
 
@@ -125,18 +128,18 @@ const technologies = [
 ];
 
 const experiences = [
-{
-    title: "Freelance Web Developer",
-    company_name: "Allright Computer Services",
-    icon: logo,
-    iconBg: "black",
-    date: "February 2023 - April 2023",
-    points: [
-    " Drove customer acquisition by creating a dynamic, mobile friendly website using React and Tailwind CSS.", 
-    " Successfully collaborated with the business owner to develop and execute a website design strategy that effectively showcased the company’s offerings and enhanced its online presence. "
+// {
+//     title: "Freelance Web Developer",
+//     company_name: "Allright Computer Services",
+//     icon: logo,
+//     iconBg: "black",
+//     date: "February 2023 - April 2023",
+//     points: [
+//     " Drove customer acquisition by creating a dynamic, mobile friendly website using React and Tailwind CSS.", 
+//     " Successfully collaborated with the business owner to develop and execute a website design strategy that effectively showcased the company’s offerings and enhanced its online presence. "
         
-    ],
-},
+//     ],
+// },
 {
     title: "Software Engineering Student",
     company_name: "Flatiron School",
@@ -205,25 +208,25 @@ const testimonials = [
 
 const projects = [
 {
-    name: "ApartmentConnect",
+    name: "Rhythm - Music Streaming",
     description:
-    "Full-stack application for apartment tenants, designed to promote a sense of community within residential buildings. Tenants can effortlessly connect and engage with their fellow residents, fostering a friendly and inclusive environment. ",
+    "Music streaming app utilizing the powerful ShazamCore API to seamlessly fetch music, enabling users to stream any song with just a click of a button. Implemented cutting-edge technology, including React with Redux-Toolkit for efficient state management and TailwindCSS for sleek and stylish design, ensuring a seamless and enjoyable user experience.",
     tags: [
     {
         name: "react",
         color: "blue-text-gradient",
     },
     {
-        name: "postgresql",
-        color: "green-text-gradient",
-    },
-    {
-        name: "rubyonrails",
+        name: "redux",
         color: "pink-text-gradient",
     },
+    {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+    },
     ],
-    image: apartmentconnect,
-    source_code_link: "https://github.com/Jrobbins973/ApartmentConnect",
+    image: rhythm,
+    source_code_link: "https://rhythm-music-player.onrender.com/",
 },
 {
     name: "Dall-E Clone",
@@ -256,22 +259,27 @@ const projects = [
     source_code_link: "https://github.com/Jrobbins973/Dalle-clone",
 },
 {
-    name: "Planet Showcase",
+    name: "ApartmentConnect",
     description:
-    "A captivating, front-end application that presents intriguing insights about the planets in our solar system, designed with an intuitive and user-friendly interface",
+    "Full-stack application for apartment tenants, designed to promote a sense of community within residential buildings. Tenants can effortlessly connect and engage with their fellow residents, fostering a friendly and inclusive environment. ",
     tags: [
     {
         name: "react",
         color: "blue-text-gradient",
     },
     {
-        name: "css",
+        name: "postgresql",
         color: "green-text-gradient",
     },
+    {
+        name: "rubyonrails",
+        color: "pink-text-gradient",
+    },
     ],
-    image: planetsite,
-    source_code_link: "https://github.com/Jrobbins973/phase-3-front-end-react",
-},
+    image: apartmentconnect,
+    source_code_link: "https://github.com/Jrobbins973/ApartmentConnect",
+}
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
